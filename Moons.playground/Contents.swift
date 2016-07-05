@@ -35,6 +35,10 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 planetDescription("Jupiter", numberOfMoons: 67)
 
+planetDescription("Mars", numberOfMoons: 2)
+
+planetDescription("Earth", numberOfMoons: 1)
+
 var planet = "Jupiter"
 var moons = 67
 planetDescription(planet, numberOfMoons: moons)
